@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.sriwulandari_1202150268_modul2.DineIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Customer :"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <EditText
+            android:id="@+id/custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"/>
+
+        <TextView
+            android:id="@+id/meja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:text="No. Meja:"
+            android:layout_below="@+id/nama_customer"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/no_meja"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:entries="@array/no"
+            android:layout_toEndOf="@+id/no_meja"
+            android:layout_toRightOf="@+id/no_meja" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/no_meja"
+            android:onClick="pilihPesanan"
+            android:text="Pilih Pesanan"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

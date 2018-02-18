@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SRI WULANDARI_1202150268_MODUL2</string>
+   <string name="menu_makanan">Pilih Menu</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="pesan_sekarang">PESAN SEKARANG</string>
+    <string name="identitas_cutomer">Identitas Pemesanan</string>
+    <string name="nama">Nama</string>
+    <string name="phone">Phone</string>
+    <string name="alamat">Alamat</string>
+    <string name="catatan">Catatan</string>
+    <string name="pilih_waktu">Pilih Waktu Pemesanan</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="pilih_pesanan">Pilih Pesanan</string>
+    <string name="detail_customer">Detail Customer</string>
+    <string name="name">Nama</string>
+    <string name="nomor_meja">Nomor Meja</string>
+    <string name="pilih_pesan">Pilih Pesanan</string>
+    <string-array name="no">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 5</item>
+    </string-array>
+
+</resources>
